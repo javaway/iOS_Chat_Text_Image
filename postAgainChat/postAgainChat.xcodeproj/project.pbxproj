@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD23D9771BB296F200C6536A /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD23D9761BB296F200C6536A /* EGORefreshTableHeaderView.m */; };
+		FD27296F1BAF1B2200DC43CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD27296E1BAF1B2200DC43CE /* main.m */; };
+		FD2729721BAF1B2200DC43CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2729711BAF1B2200DC43CE /* AppDelegate.m */; };
+		FD2729751BAF1B2200DC43CE /* HomeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2729741BAF1B2200DC43CE /* HomeChatViewController.m */; };
+		FD2729781BAF1B2200DC43CE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2729771BAF1B2200DC43CE /* LoginViewController.m */; };
+		FD27297D1BAF1B2200DC43CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD27297C1BAF1B2200DC43CE /* Images.xcassets */; };
+		FD27298C1BAF1B2200DC43CE /* postAgainChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD27298B1BAF1B2200DC43CE /* postAgainChatTests.m */; };
+		FD2729971BAF1CA200DC43CE /* ChatTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2729961BAF1CA200DC43CE /* ChatTextTableViewCell.m */; };
+		FD27299A1BAF23D400DC43CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729981BAF23D400DC43CE /* Bolts.framework */; };
+		FD27299D1BAF240800DC43CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD27299C1BAF240800DC43CE /* AudioToolbox.framework */; };
+		FD27299F1BAF241000DC43CE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD27299E1BAF241000DC43CE /* CFNetwork.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		FD2729A11BAF241900DC43CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729A01BAF241900DC43CE /* CoreGraphics.framework */; };
+		FD2729A31BAF242300DC43CE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729A21BAF242300DC43CE /* CoreLocation.framework */; };
+		FD2729A51BAF242F00DC43CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729A41BAF242F00DC43CE /* QuartzCore.framework */; };
+		FD2729A71BAF243600DC43CE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729A61BAF243600DC43CE /* Security.framework */; };
+		FD2729AB1BAF245200DC43CE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729AA1BAF245200DC43CE /* SystemConfiguration.framework */; };
+		FD2729AD1BAF246100DC43CE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729AC1BAF246100DC43CE /* libz.dylib */; };
+		FD2729AF1BAF247400DC43CE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729AE1BAF247400DC43CE /* libsqlite3.dylib */; };
+		FD2729B11BAF248600DC43CE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729B01BAF248600DC43CE /* Accounts.framework */; };
+		FD2729B31BAF248C00DC43CE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729B21BAF248C00DC43CE /* Social.framework */; };
+		FD2729B91BAF282E00DC43CE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2729B81BAF282E00DC43CE /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FD2729C31BAF48F800DC43CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2729C21BAF48F800DC43CE /* Parse.framework */; };
+		FD2729C61BAF540900DC43CE /* PostAgainChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2729BC1BAF2ADB00DC43CE /* PostAgainChatRoomViewController.m */; };
+		FD2729C71BAF57E800DC43CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2729791BAF1B2200DC43CE /* Main.storyboard */; };
+		FD2729C81BAF57F500DC43CE /* EGORefreshTableHeaderView.h in Resources */ = {isa = PBXBuildFile; fileRef = FD2729C41BAF4B6400DC43CE /* EGORefreshTableHeaderView.h */; };
+		FD3894051BB42E5D00C7076E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3894041BB42E5D00C7076E /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD3894081BB448CD00C7076E /* Img1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FD3894071BB448CD00C7076E /* Img1.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD2729861BAF1B2200DC43CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD2729611BAF1B2200DC43CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2729681BAF1B2200DC43CE;
+			remoteInfo = postAgainChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD23D9761BB296F200C6536A /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		FD2729691BAF1B2200DC43CE /* postAgainChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = postAgainChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD27296D1BAF1B2200DC43CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD27296E1BAF1B2200DC43CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD2729701BAF1B2200DC43CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD2729711BAF1B2200DC43CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD2729731BAF1B2200DC43CE /* HomeChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HomeChatViewController.h; path = postAgainChat/HomeChatViewController.h; sourceTree = "<group>"; };
+		FD2729741BAF1B2200DC43CE /* HomeChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HomeChatViewController.m; path = postAgainChat/HomeChatViewController.m; sourceTree = "<group>"; };
+		FD2729761BAF1B2200DC43CE /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = postAgainChat/LoginViewController.h; sourceTree = "<group>"; };
+		FD2729771BAF1B2200DC43CE /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = postAgainChat/LoginViewController.m; sourceTree = "<group>"; };
+		FD27297A1BAF1B2200DC43CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD27297C1BAF1B2200DC43CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD27297F1BAF1B2200DC43CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD2729851BAF1B2200DC43CE /* postAgainChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postAgainChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD27298A1BAF1B2200DC43CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD27298B1BAF1B2200DC43CE /* postAgainChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = postAgainChatTests.m; sourceTree = "<group>"; };
+		FD2729951BAF1CA200DC43CE /* ChatTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatTextTableViewCell.h; path = postAgainChat/ChatTextTableViewCell.h; sourceTree = "<group>"; };
+		FD2729961BAF1CA200DC43CE /* ChatTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatTextTableViewCell.m; path = postAgainChat/ChatTextTableViewCell.m; sourceTree = "<group>"; };
+		FD2729981BAF23D400DC43CE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FD27299C1BAF240800DC43CE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FD27299E1BAF241000DC43CE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FD2729A01BAF241900DC43CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD2729A21BAF242300DC43CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FD2729A41BAF242F00DC43CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FD2729A61BAF243600DC43CE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FD2729AA1BAF245200DC43CE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FD2729AC1BAF246100DC43CE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FD2729AE1BAF247400DC43CE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FD2729B01BAF248600DC43CE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FD2729B21BAF248C00DC43CE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FD2729B71BAF282E00DC43CE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = postAgainChat.xcodeproj/Reachability.h; sourceTree = "<group>"; };
+		FD2729B81BAF282E00DC43CE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = postAgainChat.xcodeproj/Reachability.m; sourceTree = "<group>"; };
+		FD2729BB1BAF2ADB00DC43CE /* PostAgainChatRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostAgainChatRoomViewController.h; path = postAgainChat/PostAgainChatRoomViewController.h; sourceTree = "<group>"; };
+		FD2729BC1BAF2ADB00DC43CE /* PostAgainChatRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostAgainChatRoomViewController.m; path = postAgainChat/PostAgainChatRoomViewController.m; sourceTree = "<group>"; };
+		FD2729C21BAF48F800DC43CE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FD2729C41BAF4B6400DC43CE /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		FD3894021BB42DD000C7076E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FD3894041BB42E5D00C7076E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD3894071BB448CD00C7076E /* Img1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Img1.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD2729661BAF1B2200DC43CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3894051BB42E5D00C7076E /* Foundation.framework in Frameworks */,
+				FD27299F1BAF241000DC43CE /* CFNetwork.framework in Frameworks */,
+				FD2729B31BAF248C00DC43CE /* Social.framework in Frameworks */,
+				FD2729B11BAF248600DC43CE /* Accounts.framework in Frameworks */,
+				FD2729AF1BAF247400DC43CE /* libsqlite3.dylib in Frameworks */,
+				FD2729AD1BAF246100DC43CE /* libz.dylib in Frameworks */,
+				FD2729AB1BAF245200DC43CE /* SystemConfiguration.framework in Frameworks */,
+				FD2729A71BAF243600DC43CE /* Security.framework in Frameworks */,
+				FD2729A51BAF242F00DC43CE /* QuartzCore.framework in Frameworks */,
+				FD2729A31BAF242300DC43CE /* CoreLocation.framework in Frameworks */,
+				FD2729A11BAF241900DC43CE /* CoreGraphics.framework in Frameworks */,
+				FD2729C31BAF48F800DC43CE /* Parse.framework in Frameworks */,
+				FD27299D1BAF240800DC43CE /* AudioToolbox.framework in Frameworks */,
+				FD27299A1BAF23D400DC43CE /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2729821BAF1B2200DC43CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD23D9781BB3009C00C6536A /* util */ = {
+			isa = PBXGroup;
+			children = (
+				FD2729951BAF1CA200DC43CE /* ChatTextTableViewCell.h */,
+				FD2729961BAF1CA200DC43CE /* ChatTextTableViewCell.m */,
+				FD2729B71BAF282E00DC43CE /* Reachability.h */,
+				FD2729B81BAF282E00DC43CE /* Reachability.m */,
+				FD2729C41BAF4B6400DC43CE /* EGORefreshTableHeaderView.h */,
+				FD23D9761BB296F200C6536A /* EGORefreshTableHeaderView.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		FD23D9791BB300A800C6536A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD2729BB1BAF2ADB00DC43CE /* PostAgainChatRoomViewController.h */,
+				FD2729BC1BAF2ADB00DC43CE /* PostAgainChatRoomViewController.m */,
+				FD2729731BAF1B2200DC43CE /* HomeChatViewController.h */,
+				FD2729741BAF1B2200DC43CE /* HomeChatViewController.m */,
+				FD2729761BAF1B2200DC43CE /* LoginViewController.h */,
+				FD2729771BAF1B2200DC43CE /* LoginViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FD2729601BAF1B2200DC43CE = {
+			isa = PBXGroup;
+			children = (
+				FD27296B1BAF1B2200DC43CE /* postAgainChat */,
+				FD3894061BB4488F00C7076E /* resources */,
+				FD23D9791BB300A800C6536A /* controller */,
+				FD23D9781BB3009C00C6536A /* util */,
+				FD2729C21BAF48F800DC43CE /* Parse.framework */,
+				FD3894041BB42E5D00C7076E /* Foundation.framework */,
+				FD2729B21BAF248C00DC43CE /* Social.framework */,
+				FD2729B01BAF248600DC43CE /* Accounts.framework */,
+				FD3894021BB42DD000C7076E /* CoreFoundation.framework */,
+				FD2729AE1BAF247400DC43CE /* libsqlite3.dylib */,
+				FD2729AC1BAF246100DC43CE /* libz.dylib */,
+				FD2729AA1BAF245200DC43CE /* SystemConfiguration.framework */,
+				FD2729A61BAF243600DC43CE /* Security.framework */,
+				FD2729A41BAF242F00DC43CE /* QuartzCore.framework */,
+				FD2729A21BAF242300DC43CE /* CoreLocation.framework */,
+				FD2729A01BAF241900DC43CE /* CoreGraphics.framework */,
+				FD27299E1BAF241000DC43CE /* CFNetwork.framework */,
+				FD27299C1BAF240800DC43CE /* AudioToolbox.framework */,
+				FD2729981BAF23D400DC43CE /* Bolts.framework */,
+				FD2729881BAF1B2200DC43CE /* postAgainChatTests */,
+				FD27296A1BAF1B2200DC43CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD27296A1BAF1B2200DC43CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD2729691BAF1B2200DC43CE /* postAgainChat.app */,
+				FD2729851BAF1B2200DC43CE /* postAgainChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD27296B1BAF1B2200DC43CE /* postAgainChat */ = {
+			isa = PBXGroup;
+			children = (
+				FD2729701BAF1B2200DC43CE /* AppDelegate.h */,
+				FD2729711BAF1B2200DC43CE /* AppDelegate.m */,
+				FD2729791BAF1B2200DC43CE /* Main.storyboard */,
+				FD27297C1BAF1B2200DC43CE /* Images.xcassets */,
+				FD27297E1BAF1B2200DC43CE /* LaunchScreen.xib */,
+				FD27296C1BAF1B2200DC43CE /* Supporting Files */,
+			);
+			path = postAgainChat;
+			sourceTree = "<group>";
+		};
+		FD27296C1BAF1B2200DC43CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD27296D1BAF1B2200DC43CE /* Info.plist */,
+				FD27296E1BAF1B2200DC43CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD2729881BAF1B2200DC43CE /* postAgainChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD27298B1BAF1B2200DC43CE /* postAgainChatTests.m */,
+				FD2729891BAF1B2200DC43CE /* Supporting Files */,
+			);
+			path = postAgainChatTests;
+			sourceTree = "<group>";
+		};
+		FD2729891BAF1B2200DC43CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD27298A1BAF1B2200DC43CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD3894061BB4488F00C7076E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD3894071BB448CD00C7076E /* Img1.JPG */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD2729681BAF1B2200DC43CE /* postAgainChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD27298F1BAF1B2200DC43CE /* Build configuration list for PBXNativeTarget "postAgainChat" */;
+			buildPhases = (
+				FD2729651BAF1B2200DC43CE /* Sources */,
+				FD2729661BAF1B2200DC43CE /* Frameworks */,
+				FD2729671BAF1B2200DC43CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = postAgainChat;
+			productName = postAgainChat;
+			productReference = FD2729691BAF1B2200DC43CE /* postAgainChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD2729841BAF1B2200DC43CE /* postAgainChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2729921BAF1B2200DC43CE /* Build configuration list for PBXNativeTarget "postAgainChatTests" */;
+			buildPhases = (
+				FD2729811BAF1B2200DC43CE /* Sources */,
+				FD2729821BAF1B2200DC43CE /* Frameworks */,
+				FD2729831BAF1B2200DC43CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD2729871BAF1B2200DC43CE /* PBXTargetDependency */,
+			);
+			name = postAgainChatTests;
+			productName = postAgainChatTests;
+			productReference = FD2729851BAF1B2200DC43CE /* postAgainChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD2729611BAF1B2200DC43CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = iosonfly;
+				TargetAttributes = {
+					FD2729681BAF1B2200DC43CE = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = C6JLMWXSKY;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					FD2729841BAF1B2200DC43CE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FD2729681BAF1B2200DC43CE;
+					};
+				};
+			};
+			buildConfigurationList = FD2729641BAF1B2200DC43CE /* Build configuration list for PBXProject "postAgainChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD2729601BAF1B2200DC43CE;
+			productRefGroup = FD27296A1BAF1B2200DC43CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD2729681BAF1B2200DC43CE /* postAgainChat */,
+				FD2729841BAF1B2200DC43CE /* postAgainChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD2729671BAF1B2200DC43CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2729C81BAF57F500DC43CE /* EGORefreshTableHeaderView.h in Resources */,
+				FD3894081BB448CD00C7076E /* Img1.JPG in Resources */,
+				FD2729C71BAF57E800DC43CE /* Main.storyboard in Resources */,
+				FD27297D1BAF1B2200DC43CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2729831BAF1B2200DC43CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD2729651BAF1B2200DC43CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2729C61BAF540900DC43CE /* PostAgainChatRoomViewController.m in Sources */,
+				FD2729781BAF1B2200DC43CE /* LoginViewController.m in Sources */,
+				FD2729971BAF1CA200DC43CE /* ChatTextTableViewCell.m in Sources */,
+				FD2729B91BAF282E00DC43CE /* Reachability.m in Sources */,
+				FD23D9771BB296F200C6536A /* EGORefreshTableHeaderView.m in Sources */,
+				FD2729721BAF1B2200DC43CE /* AppDelegate.m in Sources */,
+				FD2729751BAF1B2200DC43CE /* HomeChatViewController.m in Sources */,
+				FD27296F1BAF1B2200DC43CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2729811BAF1B2200DC43CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD27298C1BAF1B2200DC43CE /* postAgainChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD2729871BAF1B2200DC43CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD2729681BAF1B2200DC43CE /* postAgainChat */;
+			targetProxy = FD2729861BAF1B2200DC43CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD2729791BAF1B2200DC43CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD27297A1BAF1B2200DC43CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD27297E1BAF1B2200DC43CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD27297F1BAF1B2200DC43CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD27298D1BAF1B2200DC43CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD27298E1BAF1B2200DC43CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD2729901BAF1B2200DC43CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/datel/Downloads/chatDemo-master",
+				);
+				INFOPLIST_FILE = postAgainChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD2729911BAF1B2200DC43CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/datel/Downloads/chatDemo-master",
+				);
+				INFOPLIST_FILE = postAgainChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD2729931BAF1B2200DC43CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = postAgainChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/postAgainChat.app/postAgainChat";
+			};
+			name = Debug;
+		};
+		FD2729941BAF1B2200DC43CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = postAgainChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/postAgainChat.app/postAgainChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD2729641BAF1B2200DC43CE /* Build configuration list for PBXProject "postAgainChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD27298D1BAF1B2200DC43CE /* Debug */,
+				FD27298E1BAF1B2200DC43CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD27298F1BAF1B2200DC43CE /* Build configuration list for PBXNativeTarget "postAgainChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2729901BAF1B2200DC43CE /* Debug */,
+				FD2729911BAF1B2200DC43CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2729921BAF1B2200DC43CE /* Build configuration list for PBXNativeTarget "postAgainChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2729931BAF1B2200DC43CE /* Debug */,
+				FD2729941BAF1B2200DC43CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD2729611BAF1B2200DC43CE /* Project object */;
+}
